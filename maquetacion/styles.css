@@ -38,3 +38,45 @@ div#navbar-left img {
         font-size: 32px;
     }
 }
+
+.container {
+    text-align: center;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .button-white {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+  }
+  
+  .button-purple {
+    color: #8a63d2;
+    border-color: #8a63d2;
+  }
+  
+  .button:hover {
+    color: #fff;
+  }
+  
+  .button.button-white:hover {
+    background-color: #000;
+  }
+  
+  .button.button-purple:hover {
+    background-color: #8a63d2;
+  }
+  
+  .button i {
+    margin-left: 5px;
+  }
